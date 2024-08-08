@@ -2,7 +2,7 @@ import React from 'react';
 const Footer=()=>(
     <>
     <footer>
-        <p>&copy; @_abhi_singh 2023 </p>
+        <p>&copy; @ramu gupta 2023 </p>
     </footer>
     </>
 );
