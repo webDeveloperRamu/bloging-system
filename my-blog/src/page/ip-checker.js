@@ -1,4 +1,4 @@
-"use cleint"
+
 import React, { useEffect, useState } from "react";
 export default function Home() {
   // const [ip, setIp] = useState("0.0.0.0");
