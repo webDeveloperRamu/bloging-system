@@ -8,6 +8,7 @@ import {BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import articleContent from './page/article-content';
+import IpChecker from "./page/ip-checker";
 
 // HERE WE HAVE TO CALL HOME PAGE COMPONEBT
 
@@ -21,6 +22,7 @@ class App extends Component{
           <Routes>
             
             <Route path='/' element={<HomePage/>} exact/>
+            <Route path='/ip-checker' element={<IpChecker/>} exact/>
             <Route path='/about' element={<About/>} />
             <Route path='/articlelist' element={<Articlelist articles = {articleContent}/>} />
             <Route path="/article/:name" element={<ArticlePage />} />
