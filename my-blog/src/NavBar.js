@@ -14,6 +14,7 @@ const NavBar = () => (
             <li>
             <Link to="/articlelist">Article List</Link>
             </li>
+    <li><Link href="/ip-checker">Ip Check</Link></li>
           
           </ul>
         </nav>
